@@ -1,6 +1,6 @@
 FROM openjdk:8
 
-RUN curl -sL https://deb.nodesource.com/setup_11.x | bash -
+RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
 RUN apt-get install -y nodejs
 
 ENV SBT_VERSION=1.2.8
