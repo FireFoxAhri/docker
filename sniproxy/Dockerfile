@@ -8,4 +8,4 @@ RUN	apk update \
 EXPOSE 443
 ADD sniproxy.conf /sniproxy.conf
 
-ENTRYPOINT ["sniproxy -f -c /sniproxy.conf"]
+CMD ["sniproxy -f -c /sniproxy.conf"]
