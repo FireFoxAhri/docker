@@ -1,6 +1,6 @@
 FROM openjdk:11-jre
 
-ENV KAFKA_VERSION=2.4.0
+ENV KAFKA_VERSION=2.4.1
 EXPOSE 9092
 
 ADD entrypoint.sh /entrypoint.sh
